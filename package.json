@@ -1,0 +1,35 @@
+{
+  "name": "msw-rest-api-handler",
+  "version": "1.0.0",
+  "description": "This task app performs CRUD operations against API handlers generated from the \"task\" data model and intercepted by Mock Service Worker.",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@mswjs/data": "0.5.0",
+    "@testing-library/jest-dom": "5.14.1",
+    "faker": "5.5.3",
+    "msw": "0.34.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "4.2.0",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
